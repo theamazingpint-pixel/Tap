@@ -6,7 +6,7 @@ export default function Banner({ onSubscribe }) {
         src="/Tapbanner.webp"
         alt="Craft culture banner"
         onClick={onSubscribe}
-        className="hidden md:block h-[100vh] w-full object-cover center-center"
+        className="hidden md:block h-[100vh] w-full object-cover center-center cursor-pointer"
       />
 
       {/* Mobile Banner */}
@@ -14,7 +14,7 @@ export default function Banner({ onSubscribe }) {
         src="/Mobiletapbanner.webp"
         alt="Craft culture banner mobile"
         onClick={onSubscribe}
-        className="block md:hidden h-[100vh] w-full object-fit center-center"
+        className="block md:hidden h-[100vh] w-full object-fit center-center cursor-pointer"
       />
 
      
