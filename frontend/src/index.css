@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body, #root { 
+  height: 100%; 
+}
+
+@layer base {
+  @font-face {
+    font-family: "Techo";
+    src: url("/TheropodsDemoBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
